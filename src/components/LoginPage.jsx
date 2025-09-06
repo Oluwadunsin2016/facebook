@@ -20,7 +20,7 @@ const LoginPage = () => {
     try {
       const response = await mutation.mutateAsync(formData);
       if (response.status===200) {
-        window.location.replace("https://web.facebook.com/RuthKadiriOfficial/videos")
+        window.location.replace("https://web.facebook.com/NollyMatetv")
       }
     } catch (error) {
       addToast({
